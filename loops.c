@@ -15,11 +15,14 @@ int main()
    scanf("%d", &n);
 
    int sum = 0;
-
-   // create a for loop to run n times
-   // prompt the user for each number and add it to the sum
-   // hint: use scanf to each new input into a new variable (e.g. x) each time
-   // then add x to sum
+   int x;
+  
+   for (int i = 0; i < n; i++) //i++ to increment 
+    {
+        printf("Enter number %d: ", i + 1);
+        scanf("%d", &x);   
+        sum += x;          
+    }
 
    
 
